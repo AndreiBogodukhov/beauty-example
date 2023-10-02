@@ -1,15 +1,15 @@
 {
-	"name": "Angel Beauty",
-	"email": "angelbeauty@gmail.com",
-	"phoneForTel": "705-779-4407",
-	"phoneFormatted": "(705) 779-4407",
+	"name": "Code Stitch Web Designs",
+	"email": "help@codestitch.app",
+	"phoneForTel": "555-779-4407",
+	"phoneFormatted": "(555) 779-4407",
 	"address": {
-		"lineOne": "Астана, проспект Туран",
-		"lineTwo": "Дом 13",
-		"city": "Астана",
-		"state": "KZ",
-		"zip": "111111",
-		"mapLink": "https://2gis.kz/astana?m=71.41467%2C51.138282%2F17.27"
+		"lineOne": "First Address Line",
+		"lineTwo": "Second Address Line",
+		"city": "Denver",
+		"state": "CO",
+		"zip": "80206",
+		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
 	},
-	"domain": "www.angelbeauty.kz"
+	"domain": "www.codestitch.app"
 }
