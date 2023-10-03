@@ -18,5 +18,4 @@
   compress = true
 [build.processing.html]
   pretty_urls = false
-[[redirects]]
-  conditions = {Language = ["ru"], Country = [KZ"]}
+
