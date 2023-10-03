@@ -20,7 +20,7 @@ eleventyNavigation:
     <!-- ============================================ -->
 
     <section id="int-hero">
-        <h1 id="home-h">Blog</h1>
+        <h1 id="home-h">Блог</h1>
         <picture>
             <source media="(max-width: 600px)" srcset="/assets/images/1.webp">
             <source media="(min-width: 601px)" srcset="/assets/images/1.webp">
@@ -68,7 +68,7 @@ eleventyNavigation:
                                 <span class="blog-author">{{ post.data.author }}</span>
                                 <span aria-hidden="true" class="blog-dot"></span>
                                 <!--Blog Date-->
-                                <span class="blog-date">{{ post.date | postDate }}</span>
+                                <!-- <span class="blog-date">{{ post.date | postDate }}</span> -->
                             </div>
                             <h2 class="blog-h1">
                                 {{ post.data.title }}
@@ -76,13 +76,13 @@ eleventyNavigation:
                             <p class="blog-desc">
                                 {{ post.data.description }}
                             </p>
-                            <a href="{{ post.url }}" class="blog-link">Continue Reading</a>
+                            <a href="{{ post.url }}" class="blog-link">Продолжить чтение</a>
                         </div>
                     </article>
                 {%- endfor -%}
             {% endif %}
         </div>
 
-        {% include 'components/featured-post.html' %}
+        
     </div>
 {% endblock %}
