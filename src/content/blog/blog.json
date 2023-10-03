@@ -1,5 +1,5 @@
 {
 	"layout": "layouts/post.html",
-	"tags": "post",
+	"tags": "Пост",
 	"permalink": "blog/{{title}}/index.html"
 }
