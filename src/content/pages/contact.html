@@ -18,7 +18,7 @@ permalink: 'contact/'
     <!-- ============================================ -->
 
     <section id="int-hero">
-        <h1 id="home-h">Contact Us</h1>
+        <h1 id="home-h">Контакты</h1>
         <picture>
             <source media="(max-width: 600px)" srcset="/assets/images/1.webp">
             <source media="(min-width: 601px)" srcset="/assets/images/1.webp">
@@ -60,17 +60,17 @@ permalink: 'contact/'
                     Message
                     <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
                 </label> -->
-                <button class="cs-button-solid" type="submit"><a src="https://n822273.alteg.io/">Запишитесь к нам</a></button>
+                <button class="cs-button-solid" type="submit"><a href="https://n822273.alteg.io/">Запишитесь к нам</a></button>
             </form>
             <div class="cs-right-section">
                 <!--Email-->
                 <span class="cs-header">Email</span>
                 <a class="cs-link" href="mailto:{{client.email}}">{{client.email}}</a>
                 <!--Phone-->
-                <span class="cs-header">Phone</span>
+                <span class="cs-header">Номер</span>
                 <a class="cs-link" href="tel:{{client.phoneForTel}}">{{client.phoneFormatted}}</a>
                 <!--Address-->
-                <span class="cs-header">Address</span>
+                <span class="cs-header">Адрес</span>
                 <a class="cs-link" href="{{client.address.mapLink}}">
                     {{client.address.lineOne}},
                     <br />
